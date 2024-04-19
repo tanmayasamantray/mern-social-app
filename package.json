@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js", // Assuming backend's entry point is server.js
-    "client": "cd social_frontend && npm start" // Script to start frontend
+    "start": "cd social_backend && node server.js",
+    "client": "cd social_frontend && npm start"
   },
   "keywords": [],
   "author": "",
